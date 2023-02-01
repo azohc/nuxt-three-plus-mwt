@@ -7,7 +7,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.50.0",
@@ -18,6 +19,7 @@
     "eslint-plugin-vue": "^9.9.0",
     "nuxt": "^3.1.1",
     "prettier": "2.8.3",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "husky": "^8.0.0"
   }
 }
