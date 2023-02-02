@@ -436,12 +436,12 @@
 
 "@esbuild/linux-x64@0.16.17":
   version "0.16.17"
-  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.16.17.tgz"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.16.17.tgz#e4ba18e8b149a89c982351443a377c723762b85f"
   integrity sha512-mdPjPxfnmoqhgpiEArqi4egmBAMYvaObgn4poorpUaqmvzzbvqbowRllQ+ZgzGVMGKaPkqUmPDOOFQRUFDmeUw==
 
 "@esbuild/linux-x64@0.17.5":
   version "0.17.5"
-  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.17.5.tgz"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.17.5.tgz#9fa52884c3d876593a522aa1d4df43b717907050"
   integrity sha512-vnxuhh9e4pbtABNLbT2ANW4uwQ/zvcHRCm1JxaYkzSehugoFd5iXyC4ci1nhXU13mxEwCnrnTIiiSGwa/uAF1g==
 
 "@esbuild/netbsd-x64@0.16.17":
@@ -638,6 +638,17 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.0.tgz"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
+
+"@nuxt/eslint-config@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/eslint-config/-/eslint-config-0.1.1.tgz#99058b84f92aa2c67028a19e6c66cdf5beb9f5f6"
+  integrity sha512-znm1xlbhldUubB2XGx6Ca5uarwlIieKf0o8CtxtF6eEauDbpa3T2p3JnTcdguMW2nj1YPneoGmhshANfOlghiQ==
+  dependencies:
+    "@rushstack/eslint-patch" "^1.2.0"
+    "@typescript-eslint/eslint-plugin" "^5.45.1"
+    "@typescript-eslint/parser" "^5.45.1"
+    eslint-plugin-vue "^9.8.0"
+    typescript "^4.9.3"
 
 "@nuxt/kit@3.1.1", "@nuxt/kit@^3.0.0":
   version "3.1.1"
@@ -838,6 +849,11 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@rushstack/eslint-patch@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
+  integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
@@ -863,7 +879,7 @@
   resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.13.tgz"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
-"@typescript-eslint/eslint-plugin@^5.50.0":
+"@typescript-eslint/eslint-plugin@^5.45.1", "@typescript-eslint/eslint-plugin@^5.50.0":
   version "5.50.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.50.0.tgz"
   integrity sha512-vwksQWSFZiUhgq3Kv7o1Jcj0DUNylwnIlGvKvLLYsq8pAWha6/WCnXUeaSoNNha/K7QSf2+jvmkxggC1u3pIwQ==
@@ -879,7 +895,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.50.0":
+"@typescript-eslint/parser@^5.45.1", "@typescript-eslint/parser@^5.50.0":
   version "5.50.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.50.0.tgz"
   integrity sha512-KCcSyNaogUDftK2G9RXfQyOCt51uB5yqC6pkUYqhYh8Kgt+DwR5M0EwEAxGPy/+DH6hnmKeGsNhiZRQxjH71uQ==
@@ -2071,7 +2087,7 @@ eslint-plugin-prettier@^4.2.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-vue@^9.9.0:
+eslint-plugin-vue@^9.8.0, eslint-plugin-vue@^9.9.0:
   version "9.9.0"
   resolved "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-9.9.0.tgz"
   integrity sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==
@@ -2119,7 +2135,7 @@ eslint-visitor-keys@^3.3.0:
 
 eslint@^8.33.0:
   version "8.33.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-8.33.0.tgz"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.33.0.tgz#02f110f32998cb598c6461f24f4d306e41ca33d7"
   integrity sha512-WjOpFQgKK8VrCnAtl8We0SUOy/oVZ5NHykyMiagV1M9r8IFpIJX7DduK6n1mpfhlG7T1NLWm2SuD8QB7KFySaA==
   dependencies:
     "@eslint/eslintrc" "^1.4.1"
@@ -2666,7 +2682,7 @@ human-signals@^2.1.0:
 
 husky@^8.0.0:
   version "8.0.3"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
+  resolved "https://registry.npmjs.org/husky/-/husky-8.0.3.tgz"
   integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 iconv-lite@^0.4.24:
@@ -4540,7 +4556,7 @@ type-fest@^3.0.0:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.5.4.tgz"
   integrity sha512-/Je22Er4LPoln256pcLzj73MUmPrTWg8u4WB1RlxaDl0idJOfD1r259VtKOinp4xLJqJ9zYVMuWOun6Ssp7boA==
 
-typescript@^4.9.5:
+typescript@^4.9.3, typescript@^4.9.5:
   version "4.9.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
